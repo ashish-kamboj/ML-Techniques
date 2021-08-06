@@ -1,12 +1,12 @@
 ## Methods of Model Deployment
 
-1.   **PyCaret** - Once a model is finalized it can can be consumed locally using **save_model** functionality which save the transformation pipeline and trained model which can be consumed by end user applications as a binary pickle file. Alternatively, models can be deployed on cloud (e.g. AWS) by simply writing deploy_model (before that need to configure aws environment variables).
+**1. PyCaret** - Once a model is finalized it can can be consumed locally using **save_model** functionality which save the transformation pipeline and trained model which can be consumed by end user applications as a binary pickle file. Alternatively, models can be deployed on cloud (e.g. AWS) by simply writing deploy_model (before that need to configure aws environment variables).
 
 
-2.   **MLflow** - MLflow keep track of the model experiments, parameter and artifacts. MLflow can deploy the trained model locally as local REST API endpoints or to directly score files. In addition, MLflow can package models as self-contained Docker images with the REST API endpoint. 
+**2. MLflow** - MLflow keep track of the model experiments, parameter and artifacts. MLflow can deploy the trained model locally as local REST API endpoints or to directly score files. In addition, MLflow can package models as self-contained Docker images with the REST API endpoint. 
 
 
-3.   **AWS Sagemaker**: We can deploy in AWS using below two methods
+**3. AWS Sagemaker**: We can deploy in AWS using below two methods
     - Notebook Instance (basically a Jupyter notebook)
     - Amazon Sagemaker Studio
 
