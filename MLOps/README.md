@@ -29,10 +29,10 @@
     
     
 6.   **PyWebIO** - Similar to the flask and steps will be same for deplying the ML model. Difference is
- - Easy to build web app with just simple python code (no need to knoe HTML, CSS and javascript)
- - Provide support integration into existing web services Flask, Django, Tornado, FastAPI(Starlette) framework etc.
- - Support Data Visualization which will be helpful in displaying the prediction results
- - Also, you can deploy PyWenIO application on Heroku or any other cloud services (or Platform-as-a-Service applications)
+    - Easy to build web app with just simple python code (no need to knoe HTML, CSS and javascript)
+    - Provide support integration into existing web services Flask, Django, Tornado, FastAPI(Starlette) framework etc.
+    - Support Data Visualization which will be helpful in displaying the prediction results
+    - Also, you can deploy PyWenIO application on Heroku or any other cloud services (or Platform-as-a-Service applications)
     
     
 7.   **FastAPI** - a web framework for building microservices with python.Deploying machine learning models as microservice-based architecture, make code components re-usable, highly maintained, ease of testing, and of-course the quick response. It has a data validation system that can detect any invalid data type at the runtime.
