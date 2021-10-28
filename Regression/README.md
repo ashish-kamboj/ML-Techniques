@@ -1,1 +1,0 @@
-## Different Algorithms for Regression
